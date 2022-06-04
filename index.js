@@ -5,16 +5,17 @@ const port = 3001;
 
 const prefix = "/image-space";
 
-app.route(prefix).get("/api/:type", (req, res) => {
+const _assetsJson = assetsJson();
+
+app.get(prefix + "/api/:type", (req, res) => {
   const type = req.params.type;
   const max = _assetsJson[type];
 
   if (!max) {
     res.redirect(404, "type 不存在");
-    res.send("type 不存在");
   }
 
-  res.redirect(302, `/${type}/${Random(0, max)}.jpg`);
+  res.redirect(302, `${prefix}/${type}/${Random(0, max)}.jpg`);
 });
 
 app.use(prefix, express.static("public"));
