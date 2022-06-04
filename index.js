@@ -13,6 +13,7 @@ app.get("/api/:type", (req, res) => {
   const max = _assetsJson[type];
 
   if (!max) {
+    res.redirect(404, "type 不存在");
     res.send("type 不存在");
   }
 
