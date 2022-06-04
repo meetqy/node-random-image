@@ -3,12 +3,9 @@ const fs = require("fs");
 const app = express();
 const port = 3001;
 
-app.use(express.static("public"));
+const prefix = "/image-space";
 
-const _assetsJson = assetsJson();
-console.log(_assetsJson);
-
-app.get("/api/:type", (req, res) => {
+app.route(prefix).get("/api/:type", (req, res) => {
   const type = req.params.type;
   const max = _assetsJson[type];
 
@@ -19,6 +16,8 @@ app.get("/api/:type", (req, res) => {
 
   res.redirect(302, `/${type}/${Random(0, max)}.jpg`);
 });
+
+app.use(prefix, express.static("public"));
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
