@@ -14,8 +14,9 @@ app.get(prefix + "/api/:type", (req, res) => {
   if (!max) {
     res.redirect(404, "type 不存在");
   }
-
-  res.redirect(302, `${prefix}/${type}/${Random(0, max)}.jpg`);
+  const url = `${prefix}/${type}/${Random(0, max)}.jpg`;
+  console.log(url);
+  res.redirect(302, url);
 });
 
 app.use(prefix, express.static("public"));
