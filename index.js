@@ -6,6 +6,7 @@ const port = 3001;
 const prefix = "/image-space";
 
 const _assetsJson = assetsJson();
+console.log(_assetsJson);
 
 app.get(prefix + "/api/:type", (req, res) => {
   const type = req.params.type;
@@ -14,7 +15,7 @@ app.get(prefix + "/api/:type", (req, res) => {
   if (!max) {
     res.redirect(404, "type 不存在");
   }
-  const url = `${prefix}/${type}/${Random(0, max)}.jpg`;
+  const url = `${prefix}/${type}/${Random(0, max - 1)}.jpg`;
   console.log(url);
   res.redirect(302, url);
 });
