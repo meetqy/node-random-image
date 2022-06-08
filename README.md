@@ -33,3 +33,11 @@ https://wcao.cc/image-space/api/coffee?xxx
 ## More
 
 [https://wcao.cc/tools/image-space](https://wcao.cc/tools/image-space)
+
+## 安装
+
+``` bash
+git clone https://github.com/meetqy/image-space
+yarn 
+yarn start
+```
