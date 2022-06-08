@@ -1,10 +1,10 @@
 # image-space
 
-简单占位图的升级版
+An updated version of a simple placeholder map.
 
 ## Example & Api
 
-刷新页面试试，每次图片都不一样哦 or 复制链接体验！
+Refresh the page try, each picture is different oh or copy link experience!
 
 **Avatar**
 
@@ -34,7 +34,7 @@ https://wcao.cc/image-space/api/coffee?xxx
 
 [https://wcao.cc/tools/image-space](https://wcao.cc/tools/image-space)
 
-## 安装
+## Install
 
 ``` bash
 git clone https://github.com/meetqy/image-space
