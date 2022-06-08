@@ -2,7 +2,7 @@
 
 简单占位图的升级版
 
-## Example && Api
+## Example & Api
 
 刷新页面试试，每次进来图片都不一样哦！
 
@@ -27,5 +27,9 @@ https://wcao.cc/image-space/api/avatar?xxx
 
 **Try**
 ``` html
-https://wcao.cc/image-space/api/avatar?xxx 
+https://wcao.cc/image-space/api/coffee?xxx 
 ```
+
+## More
+
+[https://wcao.cc/tools/image-space](https://wcao.cc/tools/image-space)
