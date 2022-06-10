@@ -1,6 +1,6 @@
 # image-space
 
-一个随机返回图片的 node 服务
+nodejs随机返回一张图片
 
 ## Api
 
