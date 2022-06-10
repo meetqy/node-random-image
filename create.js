@@ -10,7 +10,6 @@ function assetsJson() {
       const files = fs.readdirSync(dir).filter((item) => item[0] != ".");
       json[item] = {
         files,
-        suffix: files[0].match(/\.(.*?)+/)[0],
       };
     }
   });

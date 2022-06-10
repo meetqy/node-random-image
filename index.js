@@ -16,7 +16,7 @@ app.get(prefix + "/api/:type", (req, res) => {
   const index = Random(0, max - 1);
 
   const url = `${prefix}/${type}/${_assetsJson[type].files[index]}`;
-  // console.log(url);
+
   res.redirect(302, url);
 });
 
