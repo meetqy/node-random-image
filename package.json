@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "c": "node create.js",
+    "start": "npm run c && node index.js"
   },
   "keywords": [
     "mock",
