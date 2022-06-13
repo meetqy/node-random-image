@@ -1,6 +1,6 @@
 # image-space
 
-nodejs 随机返回一张图片
+一个超级简单Node服务（31行代码），随机返回一张图片
 
 ## Api
 
