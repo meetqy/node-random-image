@@ -1,4 +1,4 @@
-# image-space
+# node-random-image
 
 一个超级简单 Node 服务（31 行代码），随机返回一张图片
 
