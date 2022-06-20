@@ -4,8 +4,9 @@ const app = express();
 const port = 3001;
 
 const prefix = "/image-space";
+const prefix2 = "/r";
 
-app.get(prefix + "/api/:type", (req, res) => {
+const fn = (req, res) => {
   const type = req.params.type;
   const max = _assetsJson[type].files.length;
 
@@ -18,12 +19,17 @@ app.get(prefix + "/api/:type", (req, res) => {
   const url = `${prefix}/${type}/${_assetsJson[type].files[index]}`;
 
   res.redirect(302, url);
-});
+};
 
+app.get(prefix2 + "/a/:type", fn);
+app.use(prefix2, express.static("public"));
+
+app.get(prefix + "/api/:type", fn);
 app.use(prefix, express.static("public"));
 
 app.listen(port, () => {
-  console.log(`host: http://localhost:${port}/image-space/`);
+  console.log(`host: http://localhost:${port}${prefix}/`);
+  console.log(`host: http://localhost:${port}${prefix2}/`);
 });
 
 function Random(min, max) {

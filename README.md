@@ -6,6 +6,16 @@
 
 刷新页面你将看到不一样的图片 or 复制链接在浏览器中打开
 
+## Usage
+
+```sh
+https://wcao.cc/r/a/{type}
+
+# or
+
+https://wcao.cc/image-space/api/{type}
+```
+
 **Avatar**
 
 <div>
