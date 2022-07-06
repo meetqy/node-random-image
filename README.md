@@ -47,3 +47,4 @@ yarn start
 | [iwatch](https://wcao.cc/tools/image-space#iwatch)                         | <img width="100" src="https://wcao.cc/image-space/api/iwatch" />             | [apple compare](https://www.apple.com.cn/iwatch/compare/) |
 | [sgwg](https://wcao.cc/tools/image-space#sgwg)                             | <img width="100" src="https://wcao.cc/image-space/api/sgwg" />               | 网络                                                      |
 | [pokemon](https://wcao.cc/tools/image-space#pokemon)                       | <img width="100" src="https://wcao.cc/image-space/api/pokemon" />            | 网络                                                      |
+| [emoji](https://wcao.cc/tools/image-space#emoji)                           | <img width="100" src="https://wcao.cc/image-space/api/emoji" />              | [iconscout](https://iconscout.com/)                       |
