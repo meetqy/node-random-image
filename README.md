@@ -48,3 +48,6 @@ yarn start
 | [sgwg](https://wcao.cc/tools/image-space#sgwg)                             | <img width="100" src="https://wcao.cc/image-space/api/sgwg" />               | 网络                                                      |
 | [pokemon](https://wcao.cc/tools/image-space#pokemon)                       | <img width="100" src="https://wcao.cc/image-space/api/pokemon" />            | 网络                                                      |
 | [emoji](https://wcao.cc/tools/image-space#emoji)                           | <img width="100" src="https://wcao.cc/image-space/api/emoji" />              | [iconscout](https://iconscout.com/)                       |
+| [sexy](https://wcao.cc/tools/image-space#sexy)                             | <img width="100" src="https://wcao.cc/image-space/api/sexy" />               | -                                                         |
+| [scenery](https://wcao.cc/tools/image-space#scenery)                       | <img width="100" src="https://wcao.cc/image-space/api/scenery" />            | -                                                         |
+| [animal](https://wcao.cc/tools/image-space#animal)                         | <img width="100" src="https://wcao.cc/image-space/api/animal" />             | -                                                         |
